@@ -1,0 +1,66 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: #59abe3 ;
+    font-family: 'Arial', sans-serif;
+}
+
+p::before {
+    content: attr(type);
+    display: block;
+    margin: 3px;
+    font-size: 17px;
+    color: #5a5a5a;
+        
+}
+
+input{
+    width: 280px;
+    border: none;
+    border-bottom: 2px solid #bebed2;
+}
+
+input:focus{
+    outline: none;
+    border-bottom: 2px solid #b1b1c5
+}
+
+h2 {
+    margin: 10px 2px;
+    width: 150px;
+    color: #78788c;
+    border-bottom: 3px solid #78788c;
+}
+
+form {
+    width: 300px;
+    height: 425px;
+    padding-left: 20px;
+    padding-top: 15px;
+    background: #e6e6e6;
+    border-radius: 15px;
+    box-shadow: 15px 10px 5px 5px rgb(10, 10, 10);
+}
+
+button{
+    background: #e6e6e6;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    color: #5a5a5a;
+    font-size: 14px;
+    cursor: pointer;
+    border: 2px solid #78788c;
+
+
+}
+
+.copia-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
